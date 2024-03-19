@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\bin\Debug\net7.0\WaterRemainder.exe
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\bin\Debug\net7.0\WaterRemainder.deps.json
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\bin\Debug\net7.0\WaterRemainder.runtimeconfig.json
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\bin\Debug\net7.0\WaterRemainder.dll
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\bin\Debug\net7.0\WaterRemainder.pdb
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.AssemblyInfo.cs
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.dll
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\refint\WaterRemainder.dll
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.pdb
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\WaterRemainder.genruntimeconfig.cache
+C:\Users\user\source\repos\WaterRemainder\WaterRemainder\obj\Debug\net7.0\ref\WaterRemainder.dll
