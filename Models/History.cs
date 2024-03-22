@@ -10,19 +10,21 @@ namespace WaterRemainder.Models
     {
         public History()
         {
-            Date= DateTime.Now;
-            DailyWater=0;
+            Date =DateTime.Now;
         }
-
-        DateTime Date { get; set; }
-
-        float DailyWater {  get; set; }
-
-         void EndDay(float dailyWater)
+        public History(DateTime date, float dailyWater)
         {
+            Date=date;
             DailyWater=dailyWater;
-            Date.AddDays(1);
         }
+
+       public DateTime Date { get; set; }
+
+       public float DailyWater { get; set; }
+
+
+        public override string ToString() =>  $"Date: {Date.ToShortDateString().ToString()} Water : {DailyWater}";
+      
 
     }
 }

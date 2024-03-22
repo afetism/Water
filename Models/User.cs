@@ -14,9 +14,11 @@ namespace WaterRemainder.Models
             Email=email;
             Password=password;
             Weight=weight;
+            HistoriesDaily = new();
+          
         }
 
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         public string Name { get; set; }
         public string Email { get; set; }
@@ -28,9 +30,9 @@ namespace WaterRemainder.Models
         public List<History> HistoriesDaily { get; set; }
 
         public float CurrentWater { get; set; }
-        public float AvarageDailyWater() => Weight * 20;
+        public float AvarageDailyWater() => Weight / 20;
 
-
+        
 
 
 

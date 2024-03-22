@@ -9,19 +9,30 @@ namespace WaterRemainder.Helper
     internal static class CheckAndCasting
     {
 
-       public  static float GetDoubleFromString(string? input)
+       public  static float GetFloatFromString(string? input)
         {
             if (!string.IsNullOrWhiteSpace(input))
             {
-                if (double.TryParse(input, out float value))
+                if (float.TryParse(input, out float value))
                     return value;
                 else throw new InvalidCastException("Can't casting To double");
             }
             else
                 throw new NullReferenceException("Invalid Data(Null or white Space)");
         }
+        public static int GetIntFromString(string? input)
+        {
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                if (int.TryParse(input, out int value))
+                    return value;
+                else throw new InvalidCastException("Can't casting To Int");
+            }
+            else
+                throw new NullReferenceException("Invalid Data(Null or white Space)");
+        }
 
-       public static bool CheckString(string input)
+        public static bool CheckString(string input)
         {
             if (!string.IsNullOrWhiteSpace(input)) return true;
             else throw new NullReferenceException();
